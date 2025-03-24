@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.mt.link_rich_text'
+
     compileSdkVersion 31
 
     defaultConfig {
